@@ -1,5 +1,5 @@
 // Load in env settings (automatic in glitch, but for cases where this isn't running in glitch)
-require('dotenv').config({ path: `${__dirname}/../.env` });
+// require('dotenv').config({ path: `${__dirname}/../.env` });
 
 const express = require('express');
 const jwt = require('jsonwebtoken');
